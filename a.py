@@ -13,7 +13,7 @@ def hello():
     print(data)
     files = open('hello.txt', 'rb')
     upload = {'file': files}
-    res = requests.post(' http://127.0.0.1:5000/image', files = upload)
+    res = requests.post(' http://127.0.0.1:5000/text', files = upload)
     return jsonify({'data':data})
 
 
