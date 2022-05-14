@@ -1,1 +1,0 @@
-{'sender': '6505551212', 'URL': 'https://www.naver.com', 'contents': '안녕하세요.네이버입니다.\nhttps://www.naver.com'}
