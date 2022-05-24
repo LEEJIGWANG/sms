@@ -9,7 +9,7 @@ def hello():
     print(request.is_json)
     data = request.get_json()
     print(data)
-    res = requests.post(' http://127.0.0.1:5000/text1', json=data['contents'])
+    res = requests.post(' http://15.164.251.113:5000/text1', json=data['contents'])
     print(res.text)
     #return jsonify({"cal_result": machineResult})
     return res.text
